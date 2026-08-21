@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Flashcard from "./components/flashcard";
+import ClassicFooter from './components/footer';
+
 
 export default function Home() {
   return (
-    <section>
-      <h1>
-        Tester hehe
-      </h1>
-    </section>
+    <div>
+      <Flashcard/>
+      <ClassicFooter />
+    </div>
   );
 }
